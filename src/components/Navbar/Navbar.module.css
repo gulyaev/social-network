@@ -1,0 +1,25 @@
+.nav {
+    padding: 20px;
+    grid-area: n;
+    background-color: aqua;
+}
+
+.item a.activeLink {
+    color: greenyellow;
+}
+
+nav a.active {
+    color: blueviolet;
+}
+
+.item {
+    color: white;
+}
+
+.item a{
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
