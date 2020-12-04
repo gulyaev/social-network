@@ -35,7 +35,6 @@ const App = (props) => { //App - это переменная, являющаяс
         {id: 4, message: 'Yo'},
         {id: 5, message: 'Yo'},
     ];*/
-debugger;
     return (//div, который оборачивает весь сайт
 
             <div className='app-wrapper'>
@@ -53,7 +52,7 @@ debugger;
 
                     <Route path='/dialogs'
                            render={() => <Dialogs
-                               state={props.state.dialogsPage} /> }/>
+                               store={props.store} /> }/>
                     <Route path='/profile' render={() => <Profile
                         profilePage={props.state.profilePage}
                         dispatch = {props.dispatch}/>}/>
