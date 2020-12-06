@@ -1,4 +1,4 @@
-import store from "../../redux/state";
+import store from "../../redux/store";
 import React from 'react';
 import s from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
