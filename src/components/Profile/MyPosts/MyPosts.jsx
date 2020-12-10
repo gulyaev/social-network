@@ -12,24 +12,22 @@ const MyPosts = (props) => {
         {id: 2, message: 'Dada', likesCount: 23},
     ];
     */
-    debugger;
     let postsElements = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount}/>)
 
     let newPostElement = React.createRef(); //newPostElement - это специальная переменная, которая будет содержать ссылку на какой то элемент из JSX
 
-    let addPost = () => {
+    let onAddPost = () => {
         debugger;
-        //props.addPost();
+        props.addPost();
         //let text = newPostElement.current.value;
         //alert('samuraijs.com');
-        props.dispatch(addPostActionCreator());
         //newPostElement.current.value='';//зануляем - очищаем поле
         //props.updateNewPostText(' ');
     }
 
     let onPostChange = () => {
         let text = newPostElement.current.value;
-        props.dispatch(updateNewPostTextActionCreator(text));
+        props.updateNewPostText(text);
     }
     //debugger;
     return <div className={s.postsBlock}>
@@ -39,7 +37,7 @@ const MyPosts = (props) => {
                 <textarea onChange={onPostChange} ref={newPostElement} value={props.newPostText}/>
             </div>
             <div>
-                <button onClick={addPost}>Add post</button>
+                <button onClick={onAddPost}>Add post</button>
                 <button>Remove</button>
             </div>
 
