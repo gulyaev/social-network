@@ -19,7 +19,7 @@ debugger;
 
     return <div className={s.content}>
         <ProfileInfo/>
-        <MyPostsContainer store={props.store} />
+        <MyPostsContainer />
     </div>
 }
 

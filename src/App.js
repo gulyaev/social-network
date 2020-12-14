@@ -54,10 +54,10 @@ const App = (props) => { //App - это переменная, являющаяс
 
                     <Route path='/dialogs'
                            render={() => <DialogsContainer
-                               store={props.store} /> }/>
+                               /> }/>
                     <Route path='/profile'
                           render={ () => <Profile
-                                store={props.store} /> }/>
+                                 /> }/>
                     {/*<Route path='/news' render={ () => <News posts={props.posts} />}/>
             <Route path='/music' render={ () => <Music posts={props.posts} />}/>
             <Route path='/settings' render={ () => <Settings posts={props.posts} />}/>*/}
