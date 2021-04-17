@@ -1,0 +1,43 @@
+.main {
+    background-color: #FFF; 
+    color: #AAA; 
+    height: 100vh;
+    padding-top: 10px;
+  }
+
+.selectedPage {
+    font-weight: bold;
+    color: black;
+}
+
+.media {
+    margin-bottom: 10px;
+}
+
+.divImage {
+    clear: left;
+    margin-right: 10px;
+}
+
+.divBtn {
+    display: block;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.send-btn {
+    text-align: center;
+  }
+
+.borderBody {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 5px;
+    /*height: 100px;*/
+}
+
+h5 {
+    margin-bottom: 40px;
+}

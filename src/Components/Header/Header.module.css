@@ -1,0 +1,35 @@
+.brandCol{
+    background-color: #32313b; 
+    color: #AAA; 
+    margin-bottom: 15px;
+  }
+  
+.navbarBrand{
+    text-decoration: none;
+    color: #CCC;
+  }
+
+  .navbarBrand:hover{
+    text-decoration: none;
+    color: #CCC;
+  }
+
+  .loginBlock {
+    float: right;
+    margin-top: 10px;
+  }
+
+  .loginBlock a {
+    text-decoration: none;
+    color: #CCC;
+  }
+
+  .loginBlock a:hover{
+    text-decoration: none;
+    color:cornflowerblue;
+  }
+
+  .loginBlock:hover{
+    text-decoration: none;
+    color:cornflowerblue;
+  }

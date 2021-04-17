@@ -1,0 +1,31 @@
+.DIALOGSDiv {
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+
+.field {
+    width: 450px;
+}
+
+.Col1 {
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+.listgroupitem {
+    border: 0px !important;
+}
+
+.roundedCircle {
+    border-radius: 100px; /* Радиус скругления */
+  }
+
+.friendName {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.message {
+    margin-bottom: 20px;
+}

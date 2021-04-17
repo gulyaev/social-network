@@ -1,0 +1,15 @@
+.myPostsMedia{
+    margin-bottom: 40px;
+  }
+
+  Form.Control {
+    margin-bottom: 20px;
+  }
+  
+  .send-btn {
+    margin-bottom: 20px;
+  }
+
+  .roundedCircle {
+    border-radius: 100px; /* Радиус скругления */
+  }
